@@ -99,8 +99,6 @@ while 1:
 Server
 
 import socket
-
-
 s = socket.socket() 
 host = socket.gethostname() 
 print(' Server will start on host : ', host)
